@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Simple Multi Field"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <countries
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                        composite="{Boolean}true"
+                        fieldLabel=" Cart Items">
+                        <field
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            name="./cartItems">
+                            <items jcr:primaryType="nt:unstructured">
+                                <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <country
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Name of the Country"
+                                            fieldLabel="Name of the Country"
+                                            name="./country"/>
+                                        <visits
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            fieldDescription="No of times visited"
+                                            fieldLabel="No of times visited"
+                                            name="./visitcount">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <option1
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="1"
+                                                    value="1"/>
+                                                <option2
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="2"
+                                                    value="2"/>
+                                            </items>
+                                        </visits>
+                                    </items>
+                                </column>
+                            </items>
+                        </field>
+                    </countries>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

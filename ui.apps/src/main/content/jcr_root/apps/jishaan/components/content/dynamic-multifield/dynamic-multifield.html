@@ -1,0 +1,25 @@
+Jishaan == Dynamic Multifield 
+
+<div>
+    <b>Countries Details</b>
+    <br><br>
+    <div data-sly-use.countryModel="com.adobe.aem.guides.jishaan.core.models.CountryModelList" data-sly-unwrap>
+        <div data-sly-test="${!countryModel || wcmmode.edit}">
+            Add country and state details using component dialog
+        </div>
+
+        <div data-sly-test="${countryModel.countriesList}">
+            <div data-sly-list.country="${countryModel.countriesList}">
+                <div>
+                    <div>Country Name: ${country.country}</div>
+                    <br>
+                    <div data-sly-list.state="${country.statesList}" style="margin-left:40px">
+                        <div>State Name: ${statesList.stateName}</b></div>
+                        <div>State Capital Name: ${statesList.stateCapitalName}</b></div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
