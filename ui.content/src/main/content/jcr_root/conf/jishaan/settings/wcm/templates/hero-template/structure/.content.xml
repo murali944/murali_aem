@@ -3,10 +3,14 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:template="/conf/jishaan/settings/wcm/templates/content-page-template"
+        cq:lastModified="{Date}2021-03-16T10:57:43.772+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/jishaan/settings/wcm/templates/hero-template"
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="jishaan/components/structure/page">
+        sling:resourceType="jishaan/components/structure/custom_page">
         <root
+            jcr:lastModified="{Date}2021-03-16T10:58:09.894+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid"
             editable="{Boolean}true"/>
@@ -21,6 +25,7 @@
                     title="Tablet"
                     width="{Long}1200"/>
             </breakpoints>
+            <policies/>
         </cq:responsive>
     </jcr:content>
 </jcr:root>

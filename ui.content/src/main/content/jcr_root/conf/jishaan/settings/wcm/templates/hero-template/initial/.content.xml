@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-03-16T11:36:24.563+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/jishaan/settings/wcm/templates/hero-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="jishaan/components/structure/custom_page">
+        <root
+            jcr:lastModified="{Date}2021-03-16T10:58:22.312+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <custom_header
+                    jcr:created="{Date}2021-03-16T11:02:13.809+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-03-16T11:02:13.809+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="jishaan/components/structure/custom_header"/>
+                <custom_body
+                    jcr:created="{Date}2021-03-16T11:36:19.206+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-03-16T11:36:19.206+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="jishaan/components/structure/custom_body"/>
+                <responsivegrid
+                    jcr:created="{Date}2021-03-16T11:07:13.391+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-03-16T11:07:13.391+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                    <image
+                        jcr:created="{Date}2021-03-16T11:07:56.773+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-03-16T11:12:15.530+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Couple"
+                        sling:resourceType="foundation/components/image"
+                        alt="Murali and Bhargavi"
+                        fileName="20180521_162136-COLLAGE.jpg"
+                        height="150"
+                        width="150">
+                        <cq:responsive jcr:primaryType="nt:unstructured">
+                            <default
+                                jcr:primaryType="nt:unstructured"
+                                behavior="newline"
+                                offset="0"
+                                width="7"/>
+                        </cq:responsive>
+                        <file/>
+                    </image>
+                </responsivegrid>
+                <custom_footer
+                    jcr:created="{Date}2021-03-16T11:02:26.862+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-03-16T11:02:26.862+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="jishaan/components/structure/custom_footer"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

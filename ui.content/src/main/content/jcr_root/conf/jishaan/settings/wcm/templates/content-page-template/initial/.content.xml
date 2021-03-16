@@ -2,15 +2,49 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2021-03-15T19:00:52.833+05:30"
+        cq:lastModifiedBy="admin"
         cq:template="/conf/jishaan/settings/wcm/templates/content-page-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="jishaan/components/structure/page">
         <root
+            jcr:lastModified="{Date}2020-12-13T18:21:58.748+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2021-03-15T18:54:53.409+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-15T18:54:53.409+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="jishaan/components/structure/header"/>
+            <experiencefragment-header
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="jishaan/components/content/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/jishaan/language-masters/en/site/header/master"/>
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <sample_dynamic_multi
+                    jcr:created="{Date}2021-03-15T18:38:39.744+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-03-15T18:38:39.744+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="eaem-touchui-select-change-dynamic-multifield/sample-dynamic-multifield"/>
+            </responsivegrid>
+            <experiencefragment-footer
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="jishaan/components/content/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/jishaan/language-masters/en/site/footer/master"/>
+            <footer
+                jcr:created="{Date}2021-03-15T19:00:52.823+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-03-15T19:00:52.823+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="jishaan/components/structure/footer"/>
         </root>
     </jcr:content>
 </jcr:root>

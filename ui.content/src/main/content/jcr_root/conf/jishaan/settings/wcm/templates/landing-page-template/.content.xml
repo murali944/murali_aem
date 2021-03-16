@@ -2,11 +2,11 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Template">
     <jcr:content
-        cq:lastModified="{Date}2021-03-15T19:00:52.834+05:30"
+        cq:lastModified="{Date}2021-03-16T16:52:52.995+05:30"
         cq:lastModifiedBy="admin"
-        cq:templateType="/conf/jishaan/settings/wcm/template-types/content-page"
-        jcr:description="Simple content page for jishaan Website"
+        cq:templateType="/conf/jishaan/settings/wcm/template-types/landing-page"
+        jcr:description="Template for creating Landing pages of the the site"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Content Page"
+        jcr:title="Landing Page Template"
         status="enabled"/>
 </jcr:root>
